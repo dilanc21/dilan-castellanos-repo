@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dilan Castellanos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <h1 class="logo">Dilan castellanos</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h2>Bienvenido a mi página</h2>
+      <p>Esta es una página de ejemplo creada con HTML y CSS.</p>
+      <a class="cta" href="#about">Conoce más</a>
+    </section>
+
+    <section id="about" class="container">
+      <h3>Descripcion</h3>
+      <p>soy dilan castellanos aca conoceras mas sobre mi.</p>
+    </section>
+
+    <section id="contacto" class="container">
+      <h3>Contacto</h3>
+      <p>Correo: <a href="mailto:tu@correo.com">dilan.castellanosb@cun.edu.co></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> — Mi Sitio</p>
+  </footer>
+
+  <script>
+    // Mostrar año actual automáticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
